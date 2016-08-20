@@ -17,8 +17,7 @@ int main() {
 	
 	try {
 		app.Run();
-	}
-	catch (const std::runtime_error& e) {
+	}catch (const std::runtime_error& e) {
 		return CPVE::Log::FatalError(e);
 	}
 

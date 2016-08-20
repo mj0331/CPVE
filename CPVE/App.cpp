@@ -1,6 +1,7 @@
 #include "App.h"
 
 namespace CPVE {
+
 	App::App(int w, int h, std::string title)
 	{
 		Width = w;
