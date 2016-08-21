@@ -63,7 +63,7 @@ namespace CPVE {
 
 		void Update();
 	public:
-		App(int w=960, int h=540, std::string title="Vulkan 1.0.17.0");
+		App(int w=960, int h=540, std::string title="Vulkan 1.0");
 		~App();
 
 		void Run();

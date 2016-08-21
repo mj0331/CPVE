@@ -26,6 +26,7 @@ namespace CPVE {
 		//Initialize GLFW
 		glfwInit();
 
+		//Tell GLFW to not use OpenGL and to not allow resizing
 		glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 		glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
@@ -295,7 +296,10 @@ namespace CPVE {
 
 	bool App::IsDeviceValid(VkPhysicalDevice device)
 	{
-		return true;
+		//The device is valid if it supports all the queue types we need
+		QueueFamilyIndices AvailableQueueTypes = VKQueues::FindAvailableQueueFamilies(device);
+
+		return AvailableQueueTypes.IsComplete();
 	}
 
 	void App::Update()

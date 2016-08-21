@@ -157,12 +157,14 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="VKExtensions.cpp" />
+    <ClCompile Include="VKQueues.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="Log.hpp" />
     <ClInclude Include="VDeleter.hpp" />
     <ClInclude Include="VKExtensions.h" />
+    <ClInclude Include="VKQueues.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
