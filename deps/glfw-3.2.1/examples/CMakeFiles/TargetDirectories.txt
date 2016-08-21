@@ -1,0 +1,9 @@
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/edit_cache.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/splitview.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/simple.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/boing.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/wave.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/particles.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/rebuild_cache.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/gears.dir
+/home/marius/CPVE/deps/glfw-3.2.1/examples/CMakeFiles/heightmap.dir
